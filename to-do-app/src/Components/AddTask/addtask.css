@@ -1,0 +1,72 @@
+/* Ensure box-sizing is applied globally */
+/* * {
+    box-sizing: border-box;
+} */
+
+.showForm {
+    border: 1px solid red;
+    height: 20vh;
+}
+
+#container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Equal width for each grid column */
+    grid-auto-rows: 200px;
+    /* Fixed height for each row */
+    width: 70vw;
+    height: 73vh;
+    /* Set the container height */
+    background-color: transparent;
+    gap: 1vw;
+    margin-top: 2vh;
+    position: relative;
+    overflow: auto;
+    /* Allow scrolling when content exceeds the container */
+}
+
+#container1 .task {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Fill the available space */
+}
+
+.newtask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 1vh;
+    border-radius: 5px;
+    border: 2px dotted black;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+    /* Fill the available space */
+}
+
+.newtask p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container1 .task #b1 {
+    background-color: limegreen;
+    width: 7vw;
+    margin-left: 3vw;
+    margin-top: 4vh;
+    margin-right: 1vw;
+    border: none;
+}
+
+#container1 .task #b2 {
+    background-color: red;
+    width: 5vw;
+    border: none;
+}

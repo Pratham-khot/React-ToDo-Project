@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 10vw;
+    text-align: center;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid red;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 45vh;
+    border-radius: 10px;
+}
+.loginform input{
+    width: 20vw;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+.loginform button{
+    width: 10vw;
+    height: 3vh;
+    border: none;
+    background-color: grey;
+    border-radius: 5px;
+}

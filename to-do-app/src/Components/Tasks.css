@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+#tb1{
+    height: 3vh;
+    width: 20vw;
+    color: grey;
+}
+#tb2{
+    height: 7vh;
+    width: 20vw;
+    color: grey;
+}
+button{
+    background-color: lightskyblue;
+    height: 2vh;
+    width: 10vw;
+}

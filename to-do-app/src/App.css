@@ -1,0 +1,139 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+  background-color: rgb(13,13,13);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftdiv{
+  background-color: rgb(33,33,33);
+  height: 80vh;
+  width: 15vw;
+  margin-left: 3vw;
+  border: 1px solid lightslategrey;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+.rightdiv{
+  background-color: rgb(33,33,33);
+  height: 80vh;
+  width: 70vw;
+  margin-right: 3vw;
+  border:1px solid lightslategrey;
+  border-radius: 10px;
+}
+.left1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31,31,31);
+  height: 7vh;
+  width: 12vw;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 1vw;
+  color:aliceblue
+}
+.logo img{
+  height: 4vh;
+  width: 2vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.left2{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  margin-top: 23vh;
+  align-content: center;
+  /* padding-left: 6vw; */
+}
+.alltask {
+  display: flex;
+  height: 2vh;
+  width: 14vw;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(33,33,33); */
+  
+}
+.important{
+  display: flex;
+    height: 2vh;
+    width: 14vw;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(33, 33, 33); */
+}
+.complete {
+  display: flex;
+  height: 2vh;
+  width: 14vw;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(33, 33, 33); */
+}
+.doit {
+  display: flex;
+  height: 2vh;
+  width: 14vw;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(33, 33, 33); */
+}
+.inout {
+  display: flex;
+  height: 2vh;
+  width: 14vw;
+  gap: 1vw;
+  /* padding-left: 3vw; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(33, 33, 33); */
+}
+.left2 :hover{
+  scale: 1.05;
+}
+.left3{
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27vh;
+
+}
+.left3:hover{
+  scale: 1.02;
+}
+.rightdiv{
+  color: lightgrey;
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+.rightdiv1{
+  height: 18vh;
+  width: 20vw;
+  border: 2px dotted grey;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 7vh;
+  margin-top: 2vh;
+  border-radius: 5%;
+}

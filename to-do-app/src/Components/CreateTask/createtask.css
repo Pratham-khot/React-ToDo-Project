@@ -1,0 +1,40 @@
+ form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+    height: 70vh;
+    width: 40vw;
+    background-color:lightblue;
+    gap: 5vh;
+    justify-content: center;
+    transition: ease-in-out 2s;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+    border-radius: 10px;
+} 
+h3{
+    padding-left: 14vw;
+}
+.form-buttons{
+    padding-left: 8vw;
+    display: flex;
+    gap: 2vw;
+}
+input{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+label{
+    margin-left: 2vw;
+}
+#b1{
+    background-color: limegreen;
+    border-radius: 5px;
+    width: 10vw;
+}
+#b2{
+    background-color: red;
+        border-radius: 5px;
+        width: 10vw;
+}
